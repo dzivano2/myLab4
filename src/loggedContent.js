@@ -4,6 +4,7 @@ import './loggedContent.css'
 
 
 const LoggedInUserContent = () => {
+    //logged content
     
     const navigate = useNavigate();
     const [newListName, setNewListName] = useState('');

@@ -4,7 +4,7 @@ import { Document, Page, pdfjs } from 'react-pdf';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const PdfViewer = () => {
+const PdfViewer = () => {//this will display pdfs
     const [numPages, setNumPages] = useState(null);
     const [selectedPdf, setSelectedPdf] = useState('');
 

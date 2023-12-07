@@ -45,8 +45,8 @@ p{color: #FFC20E;
   border: 1px solid #000; /* Gray border */
   padding: 10px;
   margin-bottom: 10px;
-  border-radius: 5px; /* Optional: for rounded corners */
-  background-color: #e46262; /* Optional: for background color */
+  border-radius: 5px; 
+  background-color: #e46262; 
 }
 
 
@@ -121,7 +121,7 @@ li {
   padding: 5px 15px; /* Padding inside buttons for better appearance */
 }
 
-/* Optional: Additional styling for buttons */
+
 .input-group button:first-child {
   margin-left: 0; /* No space at the left of the first button */
 }

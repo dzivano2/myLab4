@@ -41,7 +41,7 @@ const heroSchema = new mongoose.Schema({
     'Skin color': String,
     Alignment: String,
     Weight: Number,
-    powers: Object // or a more detailed schema for powers
+    powers: Object 
 });
 const reviewSchema = new mongoose.Schema({
     rating: { type: Number, required: true, min: 1, max: 5 }, // Rating out of 5

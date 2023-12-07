@@ -96,16 +96,7 @@ const AdminDashboard = () => {
         }
     };
 
-    const toggleFlag = async (listName, reviewId) => {
-        try {
-            await fetch(`/api/admin/reviews/flag/${listName}/${reviewId}`, {
-                method: 'PUT'
-            });
-            fetchReviews(); // Re-fetch reviews to update the UI
-        } catch (error) {
-            console.error('Error toggling flag:', error);
-        }
-    };
+   
 
     
     return (

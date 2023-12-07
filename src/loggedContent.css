@@ -5,8 +5,8 @@
     border: 1px solid #000; /* Gray border */
     padding: 10px;
     margin-bottom: 10px;
-    border-radius: 5px; /* Optional: for rounded corners */
-    background-color: #e46262; /* Optional: for background color */
+    border-radius: 5px; 
+    background-color: #e46262; 
   }
   
   .label{color: #FFC20E;}

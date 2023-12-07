@@ -56,19 +56,17 @@ form {
   button[type="submit"]:hover {
     background-color: #0056b3;
   }
-  
-  /* Optional: Add more styles as needed */
-  /* Add this CSS to your login.css file */
+
 .return-button {
     position: absolute;
     top: 10px;
     left: 10px;
   }
-  a{  /* Remove underline */
-    color: #007bff; /* Change link color to blue (you can use your preferred color) */
+  a{  
+    color: #007bff; 
     box-shadow: none;
     
-    /* Optional: Add some margin to the link */
+    
     margin-left: 10px;
   }
   .create-account{padding-left: 460px;}

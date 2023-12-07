@@ -1,0 +1,12 @@
+.expand-lists{cursor: pointer;}
+.delete-button{margin-left: 20px;}
+.reviews-section{background: #e46262;}
+.review-container {
+    border: 1px solid #000; /* Gray border */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Optional: for rounded corners */
+    background-color: #e46262; /* Optional: for background color */
+  }
+  
+  .label{color: #FFC20E;}

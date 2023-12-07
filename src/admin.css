@@ -1,0 +1,44 @@
+.admin-dashboard {
+    font-family: Arial, sans-serif; /* Specify your preferred font */
+    background-color: #e46262; /* Background color */
+    padding: 20px;
+  }
+  
+  button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    color: #FFC20E; /* Header text color */
+  }
+  
+  .dashboard-section {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #FFC20E; /* Subsection header text color */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ccc; /* Table cell border color */
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Add more styles as needed for specific elements or interactions */
+  

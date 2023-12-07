@@ -1,0 +1,146 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 15px;
+  padding: 15px;
+  background-color: #e46262;
+  color: #FFFFFF;
+  align-items: center;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  background: #e46262;
+  border-radius: 8px;
+  align-self: start;
+}
+h1{
+  color: #FFC20E;
+  text-shadow: 1px 1px 1px #000;
+  
+}
+h3{color: #FFC20E;
+  text-shadow: 1px 1px 1px #000;
+}
+
+h2 {
+  color: #FFC20E;
+  text-shadow: 1px 1px 1px #000;
+}
+h4{
+  color: #FFC20E;
+  text-shadow: 1px 1px 1px #000;
+
+}
+p{color: #FFC20E;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.search-section {
+  padding: 20px ;
+  width: 50%;
+}
+.review-container {
+  border: 1px solid #000; /* Gray border */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px; /* Optional: for rounded corners */
+  background-color: #e46262; /* Optional: for background color */
+}
+
+
+
+.results-section {
+  margin-bottom: 30px;
+}
+
+
+
+
+
+button {
+  padding: 10px 15px;
+  background-color: #1c86e3;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+
+
+
+button:hover {
+  background-color: #FFC20E;
+  transform: translateY(-2px);
+}
+
+.hidden {
+  display: none;
+}
+.detail-section{width: 50%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+li {
+  margin-bottom: 10px;
+  list-style: none;
+  padding: 10px;
+  background-color: linear-gradient(to right, #E15554, #4D9DE0);
+  border-radius: 4px;
+  border: 1px solid #000;
+  margin-right: 200px;
+}
+
+
+.about-section{
+  
+  margin-bottom: 100px;
+  font-size: large;
+ 
+  
+
+}
+
+.input-group {
+  display: flex;
+  justify-content: start; /* Align items to the start */
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-group input {
+   /* Input field takes available space */
+  margin-right: 10px; /* Space between input field and first button */
+}
+
+.input-group button {
+  margin-left: 10px; /* Space between buttons */
+  padding: 5px 15px; /* Padding inside buttons for better appearance */
+}
+
+/* Optional: Additional styling for buttons */
+.input-group button:first-child {
+  margin-left: 0; /* No space at the left of the first button */
+}
+
+
+.expand-information {
+  cursor: pointer;
+   
+}
+
+.detail-box {
+  margin-left: 20px;
+  border-left: 2px solid gray;
+  padding-left: 10px;
+}
+
+.hero-list-ui{
+  border: 0px;
+}
+.hero-name-lists{color: #FFC20E;}
+.powers-section{color: #FFC20E;}
+.expand-lists{cursor: pointer;}

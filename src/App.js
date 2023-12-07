@@ -6,6 +6,7 @@ import CreateAccount from './CreateAccount';
 import LoggedInUserContent from './loggedContent'
 import AdminDashboard from './admin';
 import PdfViewer from './policies';
+//this will handle all the routes
 
 const App = () => {
   return (

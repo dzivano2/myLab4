@@ -38,6 +38,7 @@ const LoggedInUserContent = () => {
     const [heroes, setHeroes] = useState(initialListData.heroes.join(', ')); 
     const [visibility, setVisibility] = useState(initialListData.visibility);
     const [description, setDescription] = useState(initialListData.description);
+    //many states
   
 
     
